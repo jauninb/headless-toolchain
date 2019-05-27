@@ -16,11 +16,6 @@ template:
       [https://github.com/open-toolchain/simple-toolchain](https://github.com/open-toolchain/simple-toolchain)
     git branch: >-
       [master](https://github.com/open-toolchain/simple-toolchain/tree/master)
-toolchain:
-  name: 'simple-toolchain-{{timestamp}}'
-  template:
-    getting_started:
-      $ref: "#/messages/template.gettingStarted"
 services:
   sample-repo:
     service_id: githubpublic
