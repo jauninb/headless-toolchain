@@ -1,21 +1,6 @@
 version: '2'
 messages:
   $i18n: locales.yml
-template:
-  name:
-    $ref: "#/messages/template.name"
-  description:
-    $ref: "#/messages/template.description"
-  header: '![](toolchain.svg?localize)'
-  icon: icon.svg
-  required:
-    - sample-build
-    - sample-repo
-  info:
-    git url: >-
-      [https://github.com/open-toolchain/simple-toolchain](https://github.com/open-toolchain/simple-toolchain)
-    git branch: >-
-      [master](https://github.com/open-toolchain/simple-toolchain/tree/master)
 services:
   sample-repo:
     service_id: githubpublic
