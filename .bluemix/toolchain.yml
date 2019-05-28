@@ -5,7 +5,7 @@ services:
   sample-repo:
     service_id: githubpublic
     parameters:
-      repo_name: '{{toolchain.name}}'
+      repo_name: 'node-hello-world'
       repo_url: 'https://github.com/open-toolchain/node-hello-world'
       type: clone
       has_issues: true
