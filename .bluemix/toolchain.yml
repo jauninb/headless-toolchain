@@ -1,6 +1,7 @@
 version: '2'
 messages:
   $i18n: locales.yml
+template:
 services:
   sample-repo:
     service_id: githubpublic
